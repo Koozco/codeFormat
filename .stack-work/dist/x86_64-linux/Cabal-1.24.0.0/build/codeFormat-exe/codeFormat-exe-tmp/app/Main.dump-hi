@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2017-01-27 02:52:38.988116 UTC
+2017-01-27 03:29:30.077496 UTC
 
 interface main@main:Main 8001
-  interface hash: b1920512f2c9d35f6a952bf91d00463a
-  ABI hash: 379587171ad478376058c1c7b47df2aa
-  export-list hash: 98851255c719657f34e8b926943f03cc
+  interface hash: 517a276b46a82a13e80946670e99ff21
+  ABI hash: 4b86f3e300ba3f685be630a3d2b032d1
+  export-list hash: 4c8ba66a331762d2b24e0fc1a0bb264c
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: e37d1d07a578876526596723f470560e
   sig of: Nothing
@@ -15,7 +15,7 @@ exports:
   Main.main
 module dependencies:
 package dependencies: base-4.9.0.0*
-                      codeFormat-0.1.0.0@codeFormat-0.1.0.0-IRF5OKmzIWxJYCkHdqV3wn
+                      codeFormat-0.1.0.0@codeFormat-0.1.0.0-GA2byDEeL76HeEJLzOJvPF
                       ghc-prim-0.5.0.0 integer-gmp-1.0.0.1
                       split-0.2.3.1@split-0.2.3.1-IJKK4pOCYGKud0jZImZke
 orphans: base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
@@ -32,7 +32,7 @@ import  -/  base-4.9.0.0:GHC.IO.IOMode 9380a6a6b8c50facc225c4877c5e1e90
 import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
 import  -/  base-4.9.0.0:System.Environment ee0914a962f5508d0fd404c89ee4999b
 import  -/  base-4.9.0.0:System.IO eb1d40aa793a4047069a5023f2ebcfe3
-import  -/  codeFormat-0.1.0.0@codeFormat-0.1.0.0-IRF5OKmzIWxJYCkHdqV3wn:Lib 4a9303eac0fdb83a837f1b0391993184
+import  -/  codeFormat-0.1.0.0@codeFormat-0.1.0.0-GA2byDEeL76HeEJLzOJvPF:Lib 34480cdd50b3e832421a13f03ab882c0
 import  -/  ghc-prim-0.5.0.0:GHC.Types 7378e41b7749213c8c88ceb6b0665d4c
 d6831ef04cb9301b090dfae6f7bb7ec7
   $trModule :: GHC.Types.Module
@@ -51,12 +51,12 @@ d6831ef04cb9301b090dfae6f7bb7ec7
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <B,U>x, Inline: [0] -}
-4c80d76027e16170b2ecd2df3d3ede8d
+d51fbf5066278413aac51d88e6bfb9d1
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-cb0294be47c00223435fa7406410b60f
+4ea64080b23358fb7e290dc4328822d0
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -118,7 +118,7 @@ cb0294be47c00223435fa7406410b60f
 089009f5a8b08b7d82494188ec931dc6
   main2 :: GHC.Types.Int
   {- HasNoCafRefs, Unfolding: (GHC.Types.I# 0#) -}
-28aa0977fcaa9eef70d33ea3bcad23fd
+2fc53d0fdcb896aaccf2d267164b5b95
   main3 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)

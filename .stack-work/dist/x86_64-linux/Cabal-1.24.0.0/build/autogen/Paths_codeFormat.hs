@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/bartosz/Pulpit/haskl/codeFormat/.stack-work/install/x86_64-linux/lts-7.16/8.0.1/bin"
-libdir     = "/home/bartosz/Pulpit/haskl/codeFormat/.stack-work/install/x86_64-linux/lts-7.16/8.0.1/lib/x86_64-linux-ghc-8.0.1/codeFormat-0.1.0.0-IRF5OKmzIWxJYCkHdqV3wn"
+libdir     = "/home/bartosz/Pulpit/haskl/codeFormat/.stack-work/install/x86_64-linux/lts-7.16/8.0.1/lib/x86_64-linux-ghc-8.0.1/codeFormat-0.1.0.0-GA2byDEeL76HeEJLzOJvPF"
 datadir    = "/home/bartosz/Pulpit/haskl/codeFormat/.stack-work/install/x86_64-linux/lts-7.16/8.0.1/share/x86_64-linux-ghc-8.0.1/codeFormat-0.1.0.0"
 libexecdir = "/home/bartosz/Pulpit/haskl/codeFormat/.stack-work/install/x86_64-linux/lts-7.16/8.0.1/libexec"
 sysconfdir = "/home/bartosz/Pulpit/haskl/codeFormat/.stack-work/install/x86_64-linux/lts-7.16/8.0.1/etc"

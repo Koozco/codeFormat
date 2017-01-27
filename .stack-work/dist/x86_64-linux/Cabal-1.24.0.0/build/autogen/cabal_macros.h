@@ -21,20 +21,6 @@
   (major1) == 0 && (major2) <  2 || \
   (major1) == 0 && (major2) == 2 && (minor) <= 3)
 
-/* package text-1.2.2.1 */
-#define VERSION_text "1.2.2.1"
-#define MIN_VERSION_text(major1,major2,minor) (\
-  (major1) <  1 || \
-  (major1) == 1 && (major2) <  2 || \
-  (major1) == 1 && (major2) == 2 && (minor) <= 2)
-
-/* package text-icu-0.7.0.1 */
-#define VERSION_text_icu "0.7.0.1"
-#define MIN_VERSION_text_icu(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  7 || \
-  (major1) == 0 && (major2) == 7 && (minor) <= 0)
-
 /* tool gcc-5.4.0 */
 #define TOOL_VERSION_gcc "5.4.0"
 #define MIN_TOOL_VERSION_gcc(major1,major2,minor) (\
@@ -91,7 +77,7 @@
   (major1) == 2 && (major2) <  26 || \
   (major1) == 2 && (major2) == 26 && (minor) <= 0)
 
-#define CURRENT_COMPONENT_ID "codeFormat-0.1.0.0-IRF5OKmzIWxJYCkHdqV3wn"
+#define CURRENT_COMPONENT_ID "codeFormat-0.1.0.0-GA2byDEeL76HeEJLzOJvPF"
 
-#define CURRENT_PACKAGE_KEY "codeFormat-0.1.0.0-IRF5OKmzIWxJYCkHdqV3wn"
+#define CURRENT_PACKAGE_KEY "codeFormat-0.1.0.0-GA2byDEeL76HeEJLzOJvPF"
 

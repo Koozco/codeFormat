@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2017-01-27 02:40:03.985998 UTC
+2017-01-27 03:29:29.362503 UTC
 
-interface codeFormat-0.1.0.0-IRF5OKmzIWxJYCkHdqV3wn:Lib 8001
-  interface hash: 15f4325dd5a8638c6b495588fe389600
-  ABI hash: 4a9303eac0fdb83a837f1b0391993184
-  export-list hash: 10828dad536acff2c481898fd802638c
+interface codeFormat-0.1.0.0-GA2byDEeL76HeEJLzOJvPF:Lib 8001
+  interface hash: 49807bc2bbe3bd36495fd05766d03288
+  ABI hash: 34480cdd50b3e832421a13f03ab882c0
+  export-list hash: 39a7c83de48dad9548f472ccfecbc9d9
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: b159a15c55fa7c6870cb2eb79bbae5a5
   sig of: Nothing
@@ -36,33 +36,33 @@ import  -/  base-4.9.0.0:System.IO eb1d40aa793a4047069a5023f2ebcfe3
 import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
 import  -/  split-0.2.3.1@split-0.2.3.1-IJKK4pOCYGKud0jZImZke:Data.List.Split 46e8ab9554123893f27696c65d88e63d
 import  -/  split-0.2.3.1@split-0.2.3.1-IJKK4pOCYGKud0jZImZke:Data.List.Split.Internals 91fdfee0190d7e76d57defeef91ab9d3
-ce687b1f9d36c8e4efabacac9ffe839a
+c11e981a4bff06f6dcde62e049075f82
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module Lib.$trModule2 Lib.$trModule1) -}
-165ccd87a8a1bf58b68cea1586c135dd
+31e02fe2c846dd95a8c5107aadb939af
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Lib"#) -}
-37897e7717fcba3a74e68f412a1b9e15
+8664b05182c306fff831175e26dc5b88
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "codeFormat-0.1.0.0-IRF5OKmzIWxJYCkHdqV3wn"#) -}
-c730718ba974044fd5fc2a2de557c7fc
+                   "codeFormat-0.1.0.0-GA2byDEeL76HeEJLzOJvPF"#) -}
+2f707a637682f430512ae6b3c9c355ad
   aritDoubleOperators :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators29
                    Lib.splitByOperators17) -}
-b016ce90fc60d98338142fabcd22da7e
+68d194c2d56183719c7856bbad82abbd
   doubleOperators :: [[GHC.Types.Char]]
   {- Unfolding: (GHC.Base.++
                    @ [GHC.Types.Char]
                    Lib.aritDoubleOperators
                    Lib.splitByOperators1) -}
-e00ce868213b22c3d59c206009fccc55
+1a780071e7ef3a4fba337bbf135882af
   filterEmpty :: [GHC.Base.String] -> [GHC.Base.String]
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
      Unfolding: InlineRule (1, True, False)
@@ -78,7 +78,7 @@ e00ce868213b22c3d59c206009fccc55
                       (GHC.List.filterFB @ [GHC.Types.Char] @ b c Lib.filterEmpty1)
                       n
                       words)) -}
-3fa65646d3e14db3b52dedea0cdafb15
+23c26c0847f1e926cedd5b878a2e59a7
   filterEmpty1 :: [GHC.Types.Char] -> GHC.Types.Bool
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
      Unfolding: InlineRule (1, True, False)
@@ -88,24 +88,24 @@ e00ce868213b22c3d59c206009fccc55
                         (GHC.Types.[] @ GHC.Types.Char) of wild {
                    GHC.Types.False -> GHC.Types.True
                    GHC.Types.True -> GHC.Types.False }) -}
-02a99d57b301b5874d946fd72e972bd4
+ef2271c0c97535b3d33d904b102f381a
   operators :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators60
                    Lib.splitByOperators30) -}
-2789b8847c785c7c93fb51a94c9b5c2d
+8b6e48c52300a191e73bfed179b5cb93
   printFormated ::
     [GHC.Base.String]
     -> GHC.Types.Int -> GHC.Types.Bool -> GHC.Base.String
   {- Arity: 3, Strictness: <S,1*U><L,U(U)><L,1*U> -}
-d3fb4d9e35a2cbe56f72220474719aa9
+18bd1eb6f386db8ccc5f6bfe84247825
   splitByList ::
     [GHC.Base.String]
     -> [GHC.Base.String] -> [GHC.Base.String] -> [GHC.Base.String]
   {- Arity: 3, Strictness: <S,1*U><L,U><S,1*U> -}
-8f35d9ce718d87a437aaf04f7ce90e30
+ca716f9a1d31207bf3df6e0c321079fb
   splitByOperators :: [GHC.Base.String] -> [GHC.Base.String]
   {- Arity: 1, Strictness: <S,1*U>,
      Unfolding: (\ (x :: [GHC.Base.String]) ->
@@ -119,295 +119,295 @@ d3fb4d9e35a2cbe56f72220474719aa9
                          Lib.doubleOperators
                          (GHC.Types.[] @ GHC.Base.String)
                          x))) -}
-b46ce39e70080d0e11e3e80203690608
+d246b8df80d431788808175e4fa089f6
   splitByOperators1 :: [[GHC.Types.Char]]
   {- Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators16
                    Lib.splitByOperators2) -}
-66b29cfc312ff4e4943ee55c9d66085d
+52c520fad181f8103f3db72ae9d522f0
   splitByOperators10 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "<<"#) -}
-29b5760b6e50fe9d4d438f5b3668d4eb
+e3812f94a43a4dbdb19f04c0fc60bf13
   splitByOperators11 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "<-"#) -}
-c9ddfaa06dd3ed3d9ff006e817f16962
+23d09e02b3baa52e1cdd43f6ac3bb82b
   splitByOperators12 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "->"#) -}
-ad5f7f9ff8014d87210b13438cde2652
+23fcb1651a81fb60b7ca81f269d66647
   splitByOperators13 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "!="#) -}
-fc9fd206cde18126744856129ad9fec7
+7f10b873485be92a1baa4019cf0e1041
   splitByOperators14 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "&&"#) -}
-4324129e177a1762cc263fc77afae820
+891d0b18a58cdb6ae8d9f74cc3e115d6
   splitByOperators15 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "||"#) -}
-ae82f5beef8ce390e4b0f16b460986a5
+3bbdaefe92fbe19dfcc06f278ad57ba4
   splitByOperators16 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "=="#) -}
-e1d1767bcfa5a4046afc1b4a11dadbd4
+70a03276242d179bbf3ce556b3b973df
   splitByOperators17 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators28
                    Lib.splitByOperators18) -}
-59fd1524c4bedb50c894f68bc089c03a
+627edd8025c5aef7d493b4da522d63e6
   splitByOperators18 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators27
                    Lib.splitByOperators19) -}
-d477b1255e42e0e720b2421bca61bf64
+5a84816202b615379e14638a0e67fd8e
   splitByOperators19 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators26
                    Lib.splitByOperators20) -}
-c92b4e75440ae2e29e029b5f9b1d8fe7
+bee4bf6a59e0f992f29bc74382a612dc
   splitByOperators2 :: [[GHC.Types.Char]]
   {- Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators15
                    Lib.splitByOperators3) -}
-ddccf1f85d81f1404a6781f9ec78064c
+a9eec6f85d24886edee66bc17c028211
   splitByOperators20 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators25
                    Lib.splitByOperators21) -}
-8abc6c4b76ef672d3f5b352ea833011a
+c766ae11e5835c074b8b21d9878d9c87
   splitByOperators21 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators24
                    Lib.splitByOperators22) -}
-842ead2770008d35352ca3545b53b15c
+ad5936494c8dad19c8d011495f68b934
   splitByOperators22 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators23
                    (GHC.Types.[] @ [GHC.Types.Char])) -}
-402b7ab417f58cfd3f99c22c72ca9286
+e9dd788f437b00c819f7da8992603cdf
   splitByOperators23 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "%="#) -}
-6550f2d7ac9a6fd0d84455398a6c055e
+1e19744debeb5d888dbaad7082aa5305
   splitByOperators24 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "*="#) -}
-04135de2d08ae0ab58bbbb7fb71c6714
+d38f79c19673d8d33a12c2c23907514e
   splitByOperators25 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "-="#) -}
-da65f73359c11f17ad57485f47c89904
+1c74ab621ed51538f3af08523c98541b
   splitByOperators26 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "+="#) -}
-6b125153a97f207c4ca4da147f00c86b
+a1fe0c29c4eec34437fb75e2b5643f78
   splitByOperators27 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "/="#) -}
-3feb46234be498b64a3ee52a66381ba9
+af6bbe488ff543bf85da09cc38f26c9f
   splitByOperators28 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "--"#) -}
-d41f7b0316a77e1d6207f7d3c7be68da
+cfdc2af5c26b248b0135430d4ed1465b
   splitByOperators29 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "++"#) -}
-80f0a60dcc8a3ea7d8fab4d08976c6e5
+ab85011a559a68b1ef0766491d848934
   splitByOperators3 :: [[GHC.Types.Char]]
   {- Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators14
                    Lib.splitByOperators4) -}
-c763509a006e2c3df5d4d8f9332578b5
+6a59a12a98df24aa08a157438281c64f
   splitByOperators30 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators59
                    Lib.splitByOperators31) -}
-ef5e48886c3b8504277b0cb84d7a7b86
+eb8595a8551724dfb374e8a5abeb7362
   splitByOperators31 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators58
                    Lib.splitByOperators32) -}
-b065abe4f90abccbcc204b136351e7fb
+2b7e006d103b9fa71f06b558cb23adf5
   splitByOperators32 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators57
                    Lib.splitByOperators33) -}
-12bd351da6425bab1a03df2df71a81b3
+17f998dac07890cf77d3322c860fdf50
   splitByOperators33 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators56
                    Lib.splitByOperators34) -}
-62f508921bfd298c9f5b5f29aa115e52
+edac763209f755ccd7c9542aa9f669cd
   splitByOperators34 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators55
                    Lib.splitByOperators35) -}
-94772b8102d3035f504e4729a8e770fe
+ae3e74fc33064c44210303ea47ed2ca6
   splitByOperators35 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators54
                    Lib.splitByOperators36) -}
-4aa71b54377402942220ac65000bef9c
+f291e562b035e2855216f30711a0f429
   splitByOperators36 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators53
                    Lib.splitByOperators37) -}
-e14d46c6b05b2da68e84a493a1e672e3
+885e48209ea37e52425edb16a7e39814
   splitByOperators37 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators52
                    Lib.splitByOperators38) -}
-532f4735dbe8cad9d803f0001bbe54c3
+683b26fb688f965465c47e886f2fbaeb
   splitByOperators38 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators51
                    Lib.splitByOperators39) -}
-94bb45d0bc2b1e5734f493d23c3b74d2
+49e17415149add5659230188e3181195
   splitByOperators39 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators50
                    Lib.splitByOperators40) -}
-95ef342d662c25055f9765a453325cde
+0be960962ddd84e62cba4c54794baf96
   splitByOperators4 :: [[GHC.Types.Char]]
   {- Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators13
                    Lib.splitByOperators5) -}
-cabd633b1c7d8b33d117b635aa05cabb
+2f0947f4642a678d5aac56e3d0ae0734
   splitByOperators40 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators49
                    Lib.splitByOperators41) -}
-ac10cbdab63a1a5a3fe8e43d985e5756
+5b0d3052ce00552b6cac6537d306cfeb
   splitByOperators41 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators48
                    Lib.splitByOperators42) -}
-0667a840f2e001da1c9ab25da06fed8c
+1beaf12322966fc2f6ade298bd152e8f
   splitByOperators42 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators47
                    Lib.splitByOperators43) -}
-5495fec61058b0988f0969d42d7f9329
+f6dbd62f02e3d144559113ae06fe1a74
   splitByOperators43 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators46
                    Lib.splitByOperators44) -}
-6833563205c69adab44bcfb90f3b64c8
+46b4415f0469cab7d7c1285b11131454
   splitByOperators44 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators45
                    (GHC.Types.[] @ [GHC.Types.Char])) -}
-30074eb9de92121f8bd58cb20597305f
+86f67fcef5758872b83de6aed445e15c
   splitByOperators45 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "#"#) -}
-1a9c57954c4418266e12fcb29f347117
+1f955b19128c7ee2902e0b67ff134220
   splitByOperators46 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# ">"#) -}
-2b8fd42973b6f49a341fe112024355dd
+a1ae03d891790018dc46fb567b09d8a8
   splitByOperators47 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "<"#) -}
-8fac97c0a06911210f908a6e1795e49b
+02735bdd0e46705f6e2de1a72ee5e784
   splitByOperators48 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
-abbf689d14632ac987928d4988e130df
+478bd4dc8369146b5eeaed41b3e7ec10
   splitByOperators49 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "{"#) -}
-5532bd34d865d318207936ee6a60c7a5
+7dc6fd17321ac7d1d777cd16fa60f40a
   splitByOperators5 :: [[GHC.Types.Char]]
   {- Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators12
                    Lib.splitByOperators6) -}
-a98c7116d61c548f0d02fded44ab18cc
+593687b86bde0b5b73b8f564748abea7
   splitByOperators50 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# ")"#) -}
-505479713a097a84fa9ad3ee510c3aa8
+df0200f3936e79e984bc5e6e9e444dab
   splitByOperators51 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "("#) -}
-11555d0d69253212a43b5db6f5c26f25
+9b5bc3291d147f14cc9d1d6153511c80
   splitByOperators52 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# ";"#) -}
-c12f657df3b5bcb707a9fe85d5c2abb7
+fb2401c25dad43d0d172cbf2d57c815c
   splitByOperators53 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "!"#) -}
-23018b3e4533c946214014c1eb8766e0
+7e86a55756ec81cc6ceb0a0beb55ac56
   splitByOperators54 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "&"#) -}
-d0e60c3a10e1b9f93639c46eb48178cb
+169a7d15584d993eed28182fd712fa00
   splitByOperators55 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "%"#) -}
-4808f868f62ea7858da2c45f22be5d07
+26611820c7770071a4bc9f74b131dd20
   splitByOperators56 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "/"#) -}
-9c17c7ec0a0d153fe44984a9fd583ec6
+9ecb2a6b7a303c4d92cd0c5423bd00eb
   splitByOperators57 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "*"#) -}
-be00719eaee7a9fddc75094a33c6010b
+de8e4721e8bccc90f924feedcb34012b
   splitByOperators58 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "="#) -}
-7799f8de494f1f54cd0567d975487597
+8c0c77db60da1599f48d7a5ec19ed189
   splitByOperators59 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "-"#) -}
-7041f6df62ead22e784c3f7b9528178f
+2d79a8acd81c03b83a43bc34a53b5849
   splitByOperators6 :: [[GHC.Types.Char]]
   {- Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators11
                    Lib.splitByOperators7) -}
-54d0bd3826c2ca563263e33eda09055c
+da5f7023d57dffed543286575ea6d813
   splitByOperators60 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "+"#) -}
-1b1814be81824fab741a8b457f1ba264
+d789a5984b0f476af4f86b9aee86eb54
   splitByOperators7 :: [[GHC.Types.Char]]
   {- Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators10
                    Lib.splitByOperators8) -}
-43a6e503a08fe8e60cb72278945d0643
+17c33e2acfe40eddd522a837a0c19af4
   splitByOperators8 :: [[GHC.Types.Char]]
   {- Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Lib.splitByOperators9
                    (GHC.Types.[] @ [GHC.Types.Char])) -}
-7f273c855ad768fd25e7fc4ddb675538
+22421745a5f04c5a2cd2120cfe1d5575
   splitByOperators9 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# ">>"#) -}
-9794af14470ab3b5efe6c2cdc34f668f
+4b488a973b5fcf9a227dbea97255b667
   splitByWhiteChars :: GHC.Base.String -> [GHC.Base.String]
   {- Arity: 1, Strictness: <S,1*U>,
      Unfolding: InlineRule (1, True, False)
@@ -417,7 +417,7 @@ be00719eaee7a9fddc75094a33c6010b
                    GHC.Classes.$fEqChar
                    Lib.splitByWhiteChars1
                    word) -}
-2352308f2775a8ef3682945173750934
+f83358700c797c4265b2625bd92a7301
   splitByWhiteChars1 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# " \t\n"#) -}
 vectorised variables:
